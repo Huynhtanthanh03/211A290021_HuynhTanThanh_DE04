@@ -5,52 +5,52 @@
 const movies = [
 {
     id:1,
-    title:"The Dark Knight",
-    year:2008,
-    genre:["Action","Crime"],
-    director:"Christopher Nolan",
-    actors:"Christian Bale",
-    description:"Batman đối đầu Joker để bảo vệ thành phố Gotham.",
-    poster:"images/img1.jpg"
-},
-{
-    id:2,
-    title:"Avatar",
-    year:2009,
-    genre:["Adventure","Sci-Fi"],
-    director:"James Cameron",
-    actors:"Sam Worthington",
-    description:"Jake Sully tham gia chương trình Avatar trên Pandora.",
-    poster:"images/img2.jpg"
-},
-{
-    id:3,
     title:"Inception",
     year:2010,
     genre:["Action","Sci-Fi"],
     director:"Christopher Nolan",
     actors:"Leonardo DiCaprio",
-    description:"Một nhóm chuyên đánh cắp bí mật trong giấc mơ.",
+    description:"Dom Cobb là bậc thầy đánh cắp bí mật thông qua giấc mơ.",
+    poster:"images/img1.jpg"
+},
+{
+    id:2,
+    title:"Last Night in Soho",
+    year:2021,
+    genre:["Drama","Mystery"],
+    director:"Edgar Wright",
+    actors:"Thomasin McKenzie",
+    description:"Một cô gái trẻ bất ngờ quay về London thập niên 1960 qua những giấc mơ kỳ lạ.",
+    poster:"images/img2.jpg"
+},
+{
+    id:3,
+    title:"Ant-Man",
+    year:2015,
+    genre:["Action","Adventure"],
+    director:"Peyton Reed",
+    actors:"Paul Rudd",
+    description:"Scott Lang trở thành Ant-Man với khả năng thu nhỏ kích thước nhưng tăng sức mạnh.",
     poster:"images/img3.jpg"
 },
 {
     id:4,
-    title:"Interstellar",
-    year:2014,
-    genre:["Drama","Sci-Fi"],
-    director:"Christopher Nolan",
-    actors:"Matthew McConaughey",
-    description:"Cuộc hành trình tìm hành tinh mới cho loài người.",
+    title:"Skyfall",
+    year:2012,
+    genre:["Action","Adventure"],
+    director:"Sam Mendes",
+    actors:"Daniel Craig",
+    description:"James Bond đối đầu kẻ thù nguy hiểm Silva để bảo vệ MI6.",
     poster:"images/img4.jpg"
 },
 {
     id:5,
-    title:"Spider-Man: No Way Home",
-    year:2021,
-    genre:["Action","Adventure"],
-    director:"Jon Watts",
-    actors:"Tom Holland",
-    description:"Spider-Man mở đa vũ trụ và đối đầu các phản diện.",
+    title:"Oblivion",
+    year:2013,
+    genre:["Action","Sci-Fi"],
+    director:"Joseph Kosinski",
+    actors:"Tom Cruise",
+    description:"Một kỹ thuật viên bảo trì trên Trái Đất khám phá bí mật làm thay đổi toàn bộ nhiệm vụ của mình.",
     poster:"images/img5.jpg"
 }
 ];

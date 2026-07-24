@@ -7,21 +7,25 @@
 
     <link rel="stylesheet" href="css/style.css">
 
+    <!-- Font Awesome -->
     <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
 <body>
 
     <!-- Header -->
     <header>
-        <h1><i class="fa-solid fa-film"></i> Movie Discovery App</h1>
+        <h1>
+            <i class="fa-solid fa-film"></i>
+            Movie Discovery App
+        </h1>
 
         <button id="themeToggle">
             <i class="fa-solid fa-moon"></i>
         </button>
     </header>
 
-    <!-- Layout -->
+    <!-- Main Layout -->
     <div class="container">
 
         <!-- Sidebar -->
@@ -41,7 +45,7 @@
                 <!-- JS tự tạo checkbox -->
             </div>
 
-            <hr>
+            <hr style="margin:25px 0;">
 
             <h3>Bài tập trước</h3>
 
@@ -62,24 +66,22 @@
         </aside>
 
         <!-- Main -->
-<main>
+        <main>
 
-    <h2 class="section-title">
-        🔥 Popular Movies
-    </h2>
+            <h2 class="section-title">
+                🔥 Popular Movies
+            </h2>
 
-    <div id="movieContainer" class="movie-grid">
+            <div
+                id="movieContainer"
+                class="movie-grid">
+            </div>
+
+        </main>
 
     </div>
-
-</main>
-
-    </div>
-
-
 
     <!-- Modal -->
-
     <div id="movieModal" class="modal">
 
         <div class="modal-content">
@@ -89,20 +91,32 @@
             <img
                 id="modalPoster"
                 src=""
-                alt=""
+                alt="Movie Poster"
             >
 
             <div class="modal-info">
 
                 <h2 id="modalTitle"></h2>
 
-                <p><strong>Năm:</strong> <span id="modalYear"></span></p>
+                <p>
+                    <strong>Năm:</strong>
+                    <span id="modalYear"></span>
+                </p>
 
-                <p><strong>Thể loại:</strong> <span id="modalGenre"></span></p>
+                <p>
+                    <strong>Thể loại:</strong>
+                    <span id="modalGenre"></span>
+                </p>
 
-                <p><strong>Đạo diễn:</strong> <span id="modalDirector"></span></p>
+                <p>
+                    <strong>Đạo diễn:</strong>
+                    <span id="modalDirector"></span>
+                </p>
 
-                <p><strong>Diễn viên:</strong> <span id="modalActors"></span></p>
+                <p>
+                    <strong>Diễn viên:</strong>
+                    <span id="modalActors"></span>
+                </p>
 
                 <p id="modalDescription"></p>
 
@@ -111,8 +125,6 @@
         </div>
 
     </div>
-
-
 
     <script src="js/app.js"></script>
 

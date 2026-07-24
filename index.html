@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Discovery App</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1><i class="fa-solid fa-film"></i> Movie Discovery App</h1>
+
+        <button id="themeToggle">
+            <i class="fa-solid fa-moon"></i>
+        </button>
+    </header>
+
+    <!-- Layout -->
+    <div class="container">
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+
+            <h2>Tìm kiếm</h2>
+
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Nhập tên phim..."
+            >
+
+            <h2>Thể loại</h2>
+
+            <div id="genreList">
+                <!-- JS tự tạo checkbox -->
+            </div>
+
+            <hr>
+
+            <h3>Bài tập trước</h3>
+
+            <ul class="exercise-links">
+                <li>
+                    <a href="#" target="_blank">
+                        Bài tập 35
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" target="_blank">
+                        Bài tập 36
+                    </a>
+                </li>
+            </ul>
+
+        </aside>
+
+        <!-- Main -->
+        <main>
+
+            <div id="movieContainer" class="movie-grid">
+
+                <!-- JS render movie card -->
+
+            </div>
+
+        </main>
+
+    </div>
+
+
+
+    <!-- Modal -->
+
+    <div id="movieModal" class="modal">
+
+        <div class="modal-content">
+
+            <span id="closeModal">&times;</span>
+
+            <img
+                id="modalPoster"
+                src=""
+                alt=""
+            >
+
+            <div class="modal-info">
+
+                <h2 id="modalTitle"></h2>
+
+                <p><strong>Năm:</strong> <span id="modalYear"></span></p>
+
+                <p><strong>Thể loại:</strong> <span id="modalGenre"></span></p>
+
+                <p><strong>Đạo diễn:</strong> <span id="modalDirector"></span></p>
+
+                <p><strong>Diễn viên:</strong> <span id="modalActors"></span></p>
+
+                <p id="modalDescription"></p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <script src="js/app.js"></script>
+
+</body>
+</html>
